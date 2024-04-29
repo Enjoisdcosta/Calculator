@@ -211,7 +211,7 @@
                 android:layout_margin="12dp"
                 android:backgroundTint="#3F51B5"
                 android:text="/"
-                android:textColor="@color/white"
+                android:textColor="#08FF00"
                 android:textSize="32dp">
 
             </com.google.android.material.button.MaterialButton>
@@ -234,7 +234,7 @@
                 android:layout_margin="12dp"
                 android:backgroundTint="#3F51B5"
                 android:text="*"
-                android:textColor="@color/white"
+                android:textColor="#08FF00"
                 android:textSize="32dp">
 
             </com.google.android.material.button.MaterialButton>
