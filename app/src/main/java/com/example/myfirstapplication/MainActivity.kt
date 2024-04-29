@@ -33,6 +33,11 @@ class MainActivity : AppCompatActivity() {
         calculator = CalculatorBinding.inflate(layoutInflater)
         signIn = SignInBinding.inflate(layoutInflater)
         signUp = SignUpBinding.inflate(layoutInflater)
+        setContentView(signIn.root)
+
+        // Navigate to Sign Up
+//        val intent = Intent(this, ScrollingActivity::class.java)
+//        startActivity(intent)
 
         // setContentView(R.layout.activity_main)
 //        setContentView(binding.root)
@@ -73,8 +78,7 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         Log.d(
-            MyTag,
-            "OnResume -> User can see and interact with the UI"
+            MyTag, "OnResume -> User can see and interact with the UI"
         ) //only place user gets to interact
     }
 

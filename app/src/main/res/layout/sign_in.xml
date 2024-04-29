@@ -55,9 +55,6 @@
         tools:layout_editor_absoluteY="396dp" />
 
 
-
-
-
     <Button
         android:id="@+id/SignInbutton"
         android:layout_width="390dp"
@@ -65,8 +62,8 @@
         android:text="Sign In"
         android:textSize="18sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="607dp" />
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="509dp" />
 
     <TextView
         android:id="@+id/tvSignUpSignUp"

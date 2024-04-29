@@ -16,22 +16,8 @@
             android:name=".ui.login.LoginActivity"
             android:exported="false"
             android:label="@string/title_activity_login" />
-        <activity
-            android:name=".SignUp"
-            android:exported="false"
-            android:label="@string/title_activity_sign_up"
-            android:resizeableActivity="true"
-            android:theme="@style/Theme.MyFirstApplication.NoActionBar"
-            tools:targetApi="24" />
-        <activity
-            android:name=".ui.login.SignUP"
-            android:exported="false"
-            android:label="@string/title_activity_sign_up" />
-        <activity
-            android:name=".ScrollingActivity"
-            android:exported="false"
-            android:label="@string/title_activity_scrolling"
-            android:theme="@style/Theme.MyFirstApplication.NoActionBar" />
+
+
         <activity
             android:name=".Calculator"
             android:exported="true">

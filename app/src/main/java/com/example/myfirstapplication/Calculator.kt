@@ -1,10 +1,8 @@
 package com.example.myfirstapplication
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myfirstapplication.databinding.CalculatorBinding
-import com.example.myfirstapplication.databinding.SignUpBinding
 
 class Calculator : AppCompatActivity() {
 
@@ -17,8 +15,6 @@ class Calculator : AppCompatActivity() {
 
         calculator = CalculatorBinding.inflate(layoutInflater)
         setContentView(calculator.root)
-
-        //Listener for button
         var defaulValue = 0
         var defaulList = mutableListOf<String>()
         var defaultString = ""
@@ -29,15 +25,28 @@ class Calculator : AppCompatActivity() {
 //            val intent = Intent(this, ScrollingActivity::class.java)
 //            startActivity(intent)
             calculator.outPut.text = calculator.button1.text
-
-
         }
-
-
+    //addition function
         fun add(){
                 var inputdata1=calculator.outputResult.text.toString().trim().toBigDecimal()
                 var inputdata2=calculator.outputResult.text.toString().trim().toBigDecimal()
                 calculator.outputResult.text=calculator.outputResult.text.toString()
+
+        }
+        // first input - second input as long as there is a first an second input
+        fun minus(){
+
+        }
+        // firt input / second input
+        fun divide(){
+
+        }
+        // first input * second input
+        fun multiply(){
+
+        }
+        // clear all the input
+        fun clear(){
 
         }
 

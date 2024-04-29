@@ -45,7 +45,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button1"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
@@ -57,7 +56,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button2"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
@@ -69,7 +67,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button3"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
@@ -81,7 +78,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/buttonC"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
@@ -103,7 +99,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button4"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
@@ -115,7 +110,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button5"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
@@ -127,7 +121,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button6"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
@@ -139,7 +132,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/buttonMinus"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
@@ -160,7 +152,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button7"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
@@ -172,7 +163,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button8"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
@@ -184,7 +174,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button9"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
@@ -196,7 +185,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/buttonPlus"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
@@ -218,7 +206,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/buttonDivide"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
@@ -231,7 +218,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button0"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
@@ -243,7 +229,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/buttonMultiply"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
@@ -256,7 +241,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/buttonEquals"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="10dp"
