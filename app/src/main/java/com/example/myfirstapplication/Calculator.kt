@@ -45,7 +45,7 @@ class Calculator : AppCompatActivity() {
         fun multiply(){
 
         }
-        // clear all the input
+        // clear all the input test
         fun clear(){
 
         }
