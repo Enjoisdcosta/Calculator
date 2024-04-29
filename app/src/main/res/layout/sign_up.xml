@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/tvSignInEmailHint"
+        android:layout_width="337dp"
+        android:layout_height="71dp"
+        android:layout_weight="1"
+        android:hint="@string/EnterYourEmail"
+        android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints,TextFields"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:id="@+id/tvSignInEmailText"
+        android:layout_width="127dp"
+        android:layout_height="23dp"
+        android:gravity=""
+        android:text="@string/email_text"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/tvSignInPasswordText"
+        android:layout_width="127dp"
+        android:layout_height="23dp"
+        android:gravity=""
+        android:text="@string/password_text"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <EditText
+        android:id="@+id/tvSignInAge"
+        android:layout_width="337dp"
+        android:layout_height="71dp"
+        android:layout_weight="1"
+
+        android:hint="@string/EnterYourPassword"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <EditText
+        android:id="@+id/tvSignUpConfirmPassword"
+        android:layout_width="337dp"
+        android:layout_height="71dp"
+        android:layout_weight="1"
+
+        android:hint="@string/confirmpassword"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <TextView
+        android:id="@+id/tvSignUpConfirmPasswordText"
+        android:layout_width="184dp"
+        android:layout_height="26dp"
+        android:gravity=""
+        android:text="@string/confirmpassword"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <Button
+        android:id="@+id/SignInbutton"
+        android:layout_width="390dp"
+        android:layout_height="44dp"
+        android:text="@string/SignUp"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="607dp" />
+
+    <TextView
+        android:id="@+id/tvSignUpSignUp"
+        android:layout_width="204dp"
+        android:layout_height="36dp"
+        android:text="@string/SignUp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvSignUpSignIp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <TextView
+        android:id="@+id/tvSignUpSignIp"
+        android:layout_width="204dp"
+        android:layout_height="36dp"
+        android:text="@string/signIn"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvSignUpSignUp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
